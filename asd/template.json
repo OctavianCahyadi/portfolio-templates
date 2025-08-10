@@ -1,0 +1,38 @@
+{
+  "name": "asd",
+  "slug": "asd",
+  "description": "asd",
+  "author": "asd",
+  "version": "1.0.0",
+  "license": "MIT",
+  "tags": [
+    "modern",
+    "professional"
+  ],
+  "category": "professional",
+  "preview": {
+    "desktop": "/templates/asd/preview/desktop.png",
+    "mobile": "/templates/asd/preview/mobile.png"
+  },
+  "features": [
+    "Responsive Design",
+    "Dark Mode Toggle"
+  ],
+  "colors": {
+    "primary": "#3b82f6",
+    "secondary": "#64748b",
+    "accent": "#f59e0b"
+  },
+  "fonts": {
+    "primary": "Inter"
+  },
+  "requirements": {
+    "nextjs": ">=14.0.0",
+    "react": ">=18.0.0",
+    "typescript": ">=5.0.0"
+  },
+  "dependencies": {
+    "framer-motion": "^10.16.0",
+    "lucide-react": "^0.263.0"
+  }
+}
