@@ -1,0 +1,53 @@
+/* GitHub Ready Template Styles */
+
+:root {
+  --color-primary: #3b82f6;
+  --color-secondary: #64748b;
+  --color-accent: #f59e0b;
+  --font-family: 'Inter', system-ui, sans-serif;
+}
+
+/* Template-specific styles */
+.template-github-ready-template {
+  /* Custom template styles */
+}
+
+/* Hero section styles */
+.hero-gradient {
+  background: linear-gradient(135deg, #f3f4f6 0%, #ffffff 100%);
+}
+
+/* Card styles */
+.project-card {
+  transition: all 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Button styles */
+.btn-primary {
+  background-color: var(--color-primary);
+  color: white;
+  padding: 0.75rem 2rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #2563eb;
+}
+
+.btn-secondary {
+  border: 2px solid #d1d5db;
+  color: #374151;
+  padding: 0.75rem 2rem;
+  border-radius: 0.5rem;
+  transition: border-color 0.3s ease;
+}
+
+.btn-secondary:hover {
+  border-color: #9ca3af;
+}

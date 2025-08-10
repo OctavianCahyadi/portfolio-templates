@@ -1,0 +1,42 @@
+/* Global styles for GitHub Ready Template */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Inter', system-ui, sans-serif;
+  line-height: 1.6;
+}
+
+body {
+  color: #1e293b;
+  background-color: #ffffff;
+}
+
+.prose {
+  max-width: none;
+}
+
+.prose h1, .prose h2, .prose h3 {
+  color: #1e293b;
+  font-weight: 600;
+}
+
+.prose p {
+  margin-bottom: 1rem;
+  color: #64748b;
+}
+
+.prose a {
+  color: #3b82f6;
+  text-decoration: none;
+}
+
+.prose a:hover {
+  text-decoration: underline;
+}
