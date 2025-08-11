@@ -1,0 +1,52 @@
+{
+  "id": "template-test-template2",
+  "name": "test-template2",
+  "slug": "test-template2",
+  "description": "test template2",
+  "author": "octaviancahyadi",
+  "version": "1.0.0",
+  "license": "MIT",
+  "tags": [
+    "modern",
+    "professional"
+  ],
+  "category": "professional",
+  "features": [
+    "Responsive Design",
+    "Dark Mode Toggle"
+  ],
+  "components": {
+    "layout": "components/Layout.tsx",
+    "pages": {
+      "home": "pages/HomePage.tsx",
+      "about": "pages/AboutPage.tsx",
+      "contact": "pages/ContactPage.tsx",
+      "projects": "pages/ProjectsPage.tsx",
+      "blog": "pages/BlogPage.tsx"
+    }
+  },
+  "config": {
+    "colors": {
+      "primary": "#3b82f6",
+      "secondary": "#64748b",
+      "accent": "#f59e0b"
+    },
+    "fonts": {
+      "primary": "Inter"
+    },
+    "preview": {
+      "desktop": "/templates/test-template2/assets/screenshots/preview.png",
+      "mobile": "/templates/test-template2/assets/screenshots/preview.png"
+    }
+  },
+  "requirements": {
+    "nextjs": ">=14.0.0",
+    "react": ">=18.0.0",
+    "typescript": ">=5.0.0"
+  },
+  "dependencies": {
+    "framer-motion": "^10.16.0",
+    "lucide-react": "^0.263.0"
+  },
+  "authorGithub": "octaviancahyadi"
+}
