@@ -1,0 +1,66 @@
+{
+  "id": "test-template7",
+  "name": "test-template7",
+  "slug": "test-template7",
+  "description": "asd",
+  "author": "asd",
+  "version": "1.0.0",
+  "screenshot": "/templates/test-template7/assets/screenshots/preview.png",
+  "features": [
+    "Responsive Design"
+  ],
+  "category": "professional",
+  "components": {
+    "Layout": "Layout.tsx",
+    "LoadingSpinner": "Loader.tsx",
+    "SkeletonLoader": "SkeletonLoader.tsx",
+    "HomePage": "../pages/HomePage.tsx",
+    "AboutPage": "../pages/AboutPage.tsx",
+    "ContactPage": "../pages/ContactPage.tsx",
+    "ProjectsPage": "../pages/ProjectsPage.tsx",
+    "BlogPage": "../pages/BlogPage.tsx"
+  },
+  "styles": [
+    "globals.css",
+    "test-template7.css"
+  ],
+  "config": {
+    "colors": {
+      "primary": "#3b82f6",
+      "secondary": "#64748b",
+      "accent": "#f59e0b",
+      "background": "#ffffff",
+      "text": "#1e293b",
+      "muted": "#64748b"
+    },
+    "typography": {
+      "fontFamily": "Inter, system-ui, sans-serif",
+      "sizes": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.25rem",
+        "2xl": "1.5rem",
+        "3xl": "2rem"
+      }
+    },
+    "layout": {
+      "maxWidth": "1200px",
+      "spacing": {
+        "xs": "0.5rem",
+        "sm": "0.75rem",
+        "md": "1rem",
+        "lg": "2rem",
+        "xl": "3rem"
+      },
+      "borderRadius": "0.75rem"
+    }
+  },
+  "authorGithub": "asd",
+  "license": "MIT",
+  "tags": [
+    "modern",
+    "professional"
+  ]
+}
