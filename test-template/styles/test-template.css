@@ -1,0 +1,13 @@
+/* test-template Template Styles */
+
+:root {
+  --color-primary: #3b82f6;
+  --color-secondary: #64748b;
+  --color-accent: #f59e0b;
+  --font-family: undefined;
+}
+
+/* Template-specific styles */
+.template-test-template {
+  /* Add your custom styles here */
+}
