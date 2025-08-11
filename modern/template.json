@@ -1,0 +1,62 @@
+{
+  "id": "modern",
+  "name": "Modern Professional",
+  "slug": "modern",
+  "description": "Clean, light, and professional design perfect for business portfolios and corporate presentations.",
+  "author": "Portfolio System", 
+  "version": "1.0.0",
+  "screenshot": "/templates/modern/assets/screenshots/preview.png",
+  "features": [
+    "Clean light theme",
+    "Professional typography",
+    "Card-based layout",
+    "Smooth animations", 
+    "Blue accent colors",
+    "Minimalist design",
+    "Corporate aesthetic",
+    "Mobile optimized"
+  ],
+  "category": "business",
+  "components": {
+    "Layout": "Layout.tsx",
+    "Card": "Card.tsx",
+    "Hero": "Hero.tsx", 
+    "HomePage": "../pages/HomePage.tsx",
+    "BlogPage": "../pages/BlogPage.tsx",
+    "ProjectsPage": "../pages/ProjectsPage.tsx"
+  },
+  "styles": ["globals.css", "modern.css"],
+  "config": {
+    "colors": {
+      "primary": "#ffffff",
+      "secondary": "#f8fafc",
+      "accent": "#3b82f6", 
+      "background": "#ffffff",
+      "text": "#1e293b",
+      "muted": "#64748b"
+    },
+    "typography": {
+      "fontFamily": "Inter, system-ui, sans-serif",
+      "sizes": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem", 
+        "xl": "1.25rem",
+        "2xl": "1.5rem",
+        "3xl": "2rem"
+      }
+    },
+    "layout": {
+      "maxWidth": "1200px",
+      "spacing": {
+        "xs": "0.5rem",
+        "sm": "0.75rem",
+        "md": "1rem",
+        "lg": "2rem",
+        "xl": "3rem" 
+      },
+      "borderRadius": "0.75rem"
+    }
+  }
+}
